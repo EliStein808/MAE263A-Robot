@@ -1073,6 +1073,154 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MX-28AR_Motor_4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MX-28AR_Motor_4_0_1"
+				(rectangle
+					(start -7.62 15.24)
+					(end 3.81 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MX-28AR_Motor_4_1_1"
+				(pin bidirectional line
+					(at -7.62 10.16 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0.127 0.127)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 3.81 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0.127 0.127)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 12.7 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0.127 0.127)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 6.35 0)
+					(length 2.54)
+					(name "VDD(12V)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0.127 0.127)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_arduino-library:Arduino_Mega2560_R3_Shield"
 			(pin_names
 				(offset 1.016)
@@ -3542,9 +3690,9 @@
 		)
 		(uuid "ab1dc789-e76f-4176-bf68-9eb38ea60d56")
 	)
-	(text "4 Servos"
+	(text "5 Servos"
 		(exclude_from_sim no)
-		(at 245.872 24.13 0)
+		(at 245.618 20.066 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3593,46 +3741,76 @@
 		(uuid "f5708022-1b90-463c-ab59-6785bdef2c69")
 	)
 	(junction
-		(at 200.66 114.3)
+		(at 273.05 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06f85b6c-d69f-4dbe-bbf9-ed9c51ad0ca1")
+	)
+	(junction
+		(at 200.66 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11a544f7-b61d-44f4-adec-a5eae9f7dd6c")
 	)
 	(junction
-		(at 270.51 69.85)
+		(at 200.66 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2586874b-fb39-4d1b-b54b-ba13bad809ec")
+		(uuid "1e099281-ebbb-46b0-aa91-17657f4cdc2f")
 	)
 	(junction
-		(at 200.66 78.74)
+		(at 273.05 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25f9c3f9-da76-4c58-993c-2c579a601775")
+	)
+	(junction
+		(at 200.66 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32cd219c-0c6b-4be0-97b4-88cafb6c77a2")
 	)
 	(junction
-		(at 265.43 111.76)
+		(at 200.66 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4f8d20d4-87ef-48a2-9bd9-c29b55cdd446")
+		(uuid "48366678-5a20-4e60-9e2c-c8b14bae7f49")
 	)
 	(junction
-		(at 270.51 120.65)
+		(at 213.36 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "525e990b-4d75-4685-9398-11c1c938bda9")
+		(uuid "52e33177-8c58-4691-8714-9ea0497ff8bf")
 	)
 	(junction
-		(at 270.51 105.41)
+		(at 273.05 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "549a049c-2a0e-4927-8e73-1fe1a2ee8d69")
+	)
+	(junction
+		(at 273.05 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b235ef6-2f41-4a46-971e-e09a1e650368")
+	)
+	(junction
+		(at 279.4 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f32e2d3-dced-41ba-ba9f-89f43b992541")
 	)
 	(junction
-		(at 265.43 54.61)
+		(at 279.4 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "81f4ebdc-d2fb-41c2-b884-556cea395d34")
+		(uuid "89c57b5f-89bd-4685-85af-38e1894ca70f")
+	)
+	(junction
+		(at 213.36 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa6d56f9-cbd4-46d3-b21a-1d020f9e56bd")
 	)
 	(junction
 		(at 163.83 147.32)
@@ -3641,34 +3819,28 @@
 		(uuid "acbb7090-3b1a-4040-9264-952671f2ba30")
 	)
 	(junction
-		(at 213.36 107.95)
+		(at 213.36 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5bcb248-6292-4eb9-aac1-6f93a14f21d5")
 	)
 	(junction
-		(at 213.36 72.39)
+		(at 279.4 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bc04f193-fcd4-4d70-910a-54ad9a47c193")
+		(uuid "bdeaebcf-d44a-4862-a15f-329b6190d615")
+	)
+	(junction
+		(at 279.4 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d445ce0e-56aa-4064-9c1a-ade774926622")
 	)
 	(junction
 		(at 213.36 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d2c63f98-c41b-40d3-8f41-9f8df2e9f2e0")
-	)
-	(junction
-		(at 265.43 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d57ecf5a-9f2c-4c03-a3f0-e81c1835fd28")
-	)
-	(junction
-		(at 200.66 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed3fec92-aeb0-44cc-bfff-6f504c82c7b5")
+		(uuid "e6b41e5b-faea-4fb3-b458-ac227fc88a53")
 	)
 	(junction
 		(at 107.95 60.96)
@@ -3708,13 +3880,23 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 72.39) (xy 240.03 72.39)
+			(xy 213.36 57.15) (xy 240.03 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "123c9e3e-2ada-4403-aa58-933afbc54f98")
+	)
+	(wire
+		(pts
+			(xy 279.4 135.89) (xy 279.4 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c73072-190a-424e-90e9-341ec1bc6a0e")
 	)
 	(wire
 		(pts
@@ -3728,13 +3910,33 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 105.41) (xy 251.46 105.41)
+			(xy 251.46 81.28) (xy 279.4 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "15fdf941-683c-4296-85da-3d0f8da8d7a8")
+	)
+	(wire
+		(pts
+			(xy 194.31 16.51) (xy 273.05 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a211c2-498e-4311-80f8-26b29d15cb0f")
+	)
+	(wire
+		(pts
+			(xy 200.66 38.1) (xy 200.66 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c29133-3025-4532-9f4f-868ed77294f1")
 	)
 	(wire
 		(pts
@@ -3748,13 +3950,23 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 115.57) (xy 205.74 54.61)
+			(xy 273.05 16.51) (xy 273.05 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25aad10e-8308-4424-a3c8-0c142b429d9b")
+		(uuid "1bd81f11-e772-4b77-b8bd-2ebf39a1b7ab")
+	)
+	(wire
+		(pts
+			(xy 213.36 138.43) (xy 213.36 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ba55e9-bd69-4f8e-b5bc-16c22c254131")
 	)
 	(wire
 		(pts
@@ -3768,17 +3980,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 69.85) (xy 251.46 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bf11b82-4c67-4798-9de9-e41864b92b47")
-	)
-	(wire
-		(pts
-			(xy 200.66 148.59) (xy 240.03 148.59)
+			(xy 200.66 118.11) (xy 240.03 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3818,13 +4020,13 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 111.76) (xy 265.43 146.05)
+			(xy 213.36 57.15) (xy 213.36 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "385c7b49-fee1-4de4-a38a-8b006fa3c4c0")
+		(uuid "3bac1c18-663b-4573-964b-56671e3859bf")
 	)
 	(wire
 		(pts
@@ -3858,17 +4060,27 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 130.81) (xy 200.66 114.3)
+			(xy 251.46 60.96) (xy 273.05 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49804e37-3e3a-4e4e-af7c-c37353677561")
+		(uuid "48747cbd-6a67-4af2-8a8d-32147bb5c972")
 	)
 	(wire
 		(pts
-			(xy 265.43 43.18) (xy 251.46 43.18)
+			(xy 194.31 120.65) (xy 194.31 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c047eda-bb7f-4a93-97c3-2a55e0b0502d")
+	)
+	(wire
+		(pts
+			(xy 273.05 35.56) (xy 251.46 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3878,7 +4090,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 72.39) (xy 213.36 107.95)
+			(xy 213.36 31.75) (xy 213.36 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3888,7 +4100,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 139.7) (xy 251.46 139.7)
+			(xy 279.4 109.22) (xy 251.46 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3898,7 +4110,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 39.37) (xy 240.03 39.37)
+			(xy 213.36 31.75) (xy 240.03 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3908,17 +4120,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 76.2) (xy 251.46 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59cc8b49-f0c7-408c-ad6d-502029f40bd1")
-	)
-	(wire
-		(pts
-			(xy 265.43 111.76) (xy 251.46 111.76)
+			(xy 251.46 87.63) (xy 273.05 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3928,7 +4130,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 142.24) (xy 240.03 142.24)
+			(xy 213.36 111.76) (xy 240.03 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3958,7 +4160,17 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 130.81) (xy 200.66 148.59)
+			(xy 170.18 115.57) (xy 194.31 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60cc148a-2c81-4251-ba44-beb52fcced9a")
+	)
+	(wire
+		(pts
+			(xy 200.66 118.11) (xy 200.66 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3968,7 +4180,17 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 114.3) (xy 240.03 114.3)
+			(xy 194.31 162.56) (xy 279.4 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d1df51-ab35-467d-9cc7-964d43b4ff2d")
+	)
+	(wire
+		(pts
+			(xy 200.66 90.17) (xy 240.03 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3978,23 +4200,13 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 146.05) (xy 251.46 146.05)
+			(xy 251.46 115.57) (xy 273.05 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6b15d8ed-da87-43e4-9213-b3713f1440d0")
-	)
-	(wire
-		(pts
-			(xy 205.74 54.61) (xy 265.43 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7022ca52-53d6-415b-ab63-f03cdde29d7b")
 	)
 	(wire
 		(pts
@@ -4008,6 +4220,26 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 54.61) (xy 279.4 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c0f576-b3d8-4663-a606-2aa643a8422a")
+	)
+	(wire
+		(pts
+			(xy 194.31 115.57) (xy 194.31 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bab63dc-f858-4a12-9870-55bfc80eeec9")
+	)
+	(wire
+		(pts
 			(xy 163.83 134.62) (xy 163.83 147.32)
 		)
 		(stroke
@@ -4015,16 +4247,6 @@
 			(type default)
 		)
 		(uuid "7bd243a8-d756-46ce-a7c1-4d28468e3e40")
-	)
-	(wire
-		(pts
-			(xy 213.36 72.39) (xy 213.36 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c4ed312-c309-498f-aa33-c9aef39da417")
 	)
 	(wire
 		(pts
@@ -4048,26 +4270,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 125.73) (xy 213.36 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8212cafa-1e8d-4fa4-a179-006069691dc7")
-	)
-	(wire
-		(pts
-			(xy 270.51 120.65) (xy 270.51 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b5c4743-c799-4f0a-9569-5e91b001bd69")
-	)
-	(wire
-		(pts
 			(xy 24.13 121.92) (xy 24.13 25.4)
 		)
 		(stroke
@@ -4085,16 +4287,6 @@
 			(type default)
 		)
 		(uuid "8c805601-23f3-43b0-85dd-c87c9749d416")
-	)
-	(wire
-		(pts
-			(xy 200.66 78.74) (xy 200.66 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "924463a3-95b8-49c1-819b-1cdfeee9f7e4")
 	)
 	(wire
 		(pts
@@ -4138,26 +4330,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 107.95) (xy 213.36 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a84d185-6015-4507-b141-63a29bff1534")
-	)
-	(wire
-		(pts
-			(xy 270.51 120.65) (xy 270.51 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f1bb4e8-d989-4c56-8ec5-6007a4c4de62")
-	)
-	(wire
-		(pts
 			(xy 170.18 125.73) (xy 213.36 125.73)
 		)
 		(stroke
@@ -4168,7 +4340,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 45.72) (xy 240.03 45.72)
+			(xy 200.66 38.1) (xy 240.03 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4178,7 +4350,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 76.2) (xy 265.43 111.76)
+			(xy 273.05 35.56) (xy 273.05 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4208,6 +4380,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 135.89) (xy 279.4 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adff0e41-5a80-4523-a619-30f81bfbc8c7")
+	)
+	(wire
+		(pts
 			(xy 187.96 86.36) (xy 187.96 58.42)
 		)
 		(stroke
@@ -4218,17 +4400,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 115.57) (xy 205.74 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1831f48-1a1f-4a2b-b611-9b54b3d8d1e9")
-	)
-	(wire
-		(pts
-			(xy 270.51 36.83) (xy 251.46 36.83)
+			(xy 279.4 29.21) (xy 251.46 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4238,13 +4410,13 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 69.85) (xy 270.51 36.83)
+			(xy 170.18 120.65) (xy 194.31 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bcc049ac-5cf0-458c-804c-6170822de6b1")
+		(uuid "be78e204-c61a-493b-bae9-3f4e6fe78390")
 	)
 	(wire
 		(pts
@@ -4255,16 +4427,6 @@
 			(type default)
 		)
 		(uuid "c1a74d51-521b-4ed0-a8df-ef0d71dcbaa2")
-	)
-	(wire
-		(pts
-			(xy 170.18 120.65) (xy 270.51 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1b4f71e-3ac6-49d2-9d22-e54284c1b925")
 	)
 	(wire
 		(pts
@@ -4298,16 +4460,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 114.3) (xy 200.66 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca119f32-7f3c-4cf0-ae1f-0edf7befdec9")
-	)
-	(wire
-		(pts
 			(xy 137.16 105.41) (xy 137.16 120.65)
 		)
 		(stroke
@@ -4318,23 +4470,23 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 54.61) (xy 265.43 43.18)
+			(xy 240.03 144.78) (xy 200.66 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d000b0b8-9466-4ac8-be38-cf1432d914b9")
+		(uuid "d07737be-90a1-4e8d-a609-198a45341b52")
 	)
 	(wire
 		(pts
-			(xy 265.43 54.61) (xy 265.43 76.2)
+			(xy 240.03 138.43) (xy 213.36 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d18e8495-efc2-4db7-8a8f-a27abe07fc08")
+		(uuid "d1641851-f474-465a-8798-9c5e9ece45b6")
 	)
 	(wire
 		(pts
@@ -4368,7 +4520,17 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 107.95) (xy 240.03 107.95)
+			(xy 273.05 115.57) (xy 273.05 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da31c835-7264-42f0-ace8-7b85f53f25e8")
+	)
+	(wire
+		(pts
+			(xy 213.36 83.82) (xy 240.03 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4378,13 +4540,33 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 78.74) (xy 240.03 78.74)
+			(xy 273.05 87.63) (xy 273.05 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de54a017-f809-41f1-a7a6-75b1bfa486d1")
+	)
+	(wire
+		(pts
+			(xy 200.66 63.5) (xy 240.03 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "de7bb623-75d0-4514-992a-92e7e09f1255")
+	)
+	(wire
+		(pts
+			(xy 213.36 111.76) (xy 213.36 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7df6c8-4bf1-4922-9821-d7700d761ef1")
 	)
 	(wire
 		(pts
@@ -4428,6 +4610,26 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 29.21) (xy 279.4 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89d91ad-e32f-480b-bc42-1544f47c13d0")
+	)
+	(wire
+		(pts
+			(xy 273.05 142.24) (xy 251.46 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd37c56-45ec-4cd5-ac09-ec7dd5776d4e")
+	)
+	(wire
+		(pts
 			(xy 173.99 167.64) (xy 173.99 147.32)
 		)
 		(stroke
@@ -4435,6 +4637,16 @@
 			(type default)
 		)
 		(uuid "ef879fcf-2b1f-4cc8-a4ec-6877286b2edc")
+	)
+	(wire
+		(pts
+			(xy 273.05 60.96) (xy 273.05 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f00bc7c4-c8bd-4d96-9a1b-9d0625f28b7e")
 	)
 	(wire
 		(pts
@@ -4458,13 +4670,13 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 105.41) (xy 270.51 69.85)
+			(xy 200.66 144.78) (xy 200.66 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6d01d2b-0323-43be-b378-d1b63689ba2c")
+		(uuid "f650d640-c2ef-4e64-b2e0-ab5f746e6a2c")
 	)
 	(wire
 		(pts
@@ -4485,6 +4697,93 @@
 			(type default)
 		)
 		(uuid "fb51779b-0a3e-4fb6-b0d6-7d7aacdb00c7")
+	)
+	(symbol
+		(lib_name "MX-28AR_Motor_4")
+		(lib_id "263A Proj Extra Parts:MX-28AR_Motor")
+		(at 247.65 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07afa790-9f28-4f6f-a060-68a44f5e8b59")
+		(property "Reference" "M5"
+			(at 245.745 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 247.65 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "25e8b872-45ca-43f0-bf54-38f838650733")
+		)
+		(pin ""
+			(uuid "270ec245-a82d-49b8-9233-5d88dc418dd8")
+		)
+		(pin ""
+			(uuid "73392cde-2b26-4516-9c8c-344de8cb72df")
+		)
+		(pin ""
+			(uuid "807e489b-9a89-4bb2-8f1d-1562b63920e0")
+		)
+		(instances
+			(project "MAE_263A_Proj"
+				(path "/fd7f6e10-2bfc-407f-92fe-3223aabb85bf"
+					(reference "M5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PCM_arduino-library:Arduino_Mega2560_R3_Shield")
@@ -4835,7 +5134,7 @@
 	)
 	(symbol
 		(lib_id "263A Proj Extra Parts:MX-28AR_Motor")
-		(at 247.65 118.11 0)
+		(at 247.65 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4846,7 +5145,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d3af689-f6b5-4d66-911e-ca436f2a4019")
 		(property "Reference" "M3"
-			(at 245.745 100.33 0)
+			(at 245.745 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4856,7 +5155,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 247.65 118.11 0)
+			(at 247.65 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4866,7 +5165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 118.11 0)
+			(at 247.65 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4877,7 +5176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 118.11 0)
+			(at 247.65 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4888,7 +5187,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 118.11 0)
+			(at 247.65 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4922,7 +5221,7 @@
 	(symbol
 		(lib_name "MX-28AR_Motor_1")
 		(lib_id "263A Proj Extra Parts:MX-28AR_Motor")
-		(at 247.65 152.4 0)
+		(at 247.65 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4933,7 +5232,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f726c6f-7382-4091-a344-08e8bf8b5b99")
 		(property "Reference" "M4"
-			(at 245.745 134.62 0)
+			(at 245.745 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4943,7 +5242,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 247.65 152.4 0)
+			(at 247.65 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4953,7 +5252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 152.4 0)
+			(at 247.65 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4964,7 +5263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 152.4 0)
+			(at 247.65 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4975,7 +5274,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 152.4 0)
+			(at 247.65 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5009,7 +5308,7 @@
 	(symbol
 		(lib_name "MX-28AR_Motor_2")
 		(lib_id "263A Proj Extra Parts:MX-28AR_Motor")
-		(at 247.65 49.53 0)
+		(at 247.65 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5020,7 +5319,7 @@
 		(fields_autoplaced yes)
 		(uuid "43a56b21-1920-43a7-8e06-242cc2c90774")
 		(property "Reference" "M1"
-			(at 245.745 31.75 0)
+			(at 245.745 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5030,7 +5329,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 247.65 49.53 0)
+			(at 247.65 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5040,7 +5339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 49.53 0)
+			(at 247.65 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5051,7 +5350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 49.53 0)
+			(at 247.65 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5062,7 +5361,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 49.53 0)
+			(at 247.65 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5088,6 +5387,93 @@
 			(project "MAE_263A_Proj"
 				(path "/fd7f6e10-2bfc-407f-92fe-3223aabb85bf"
 					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MX-28AR_Motor_3")
+		(lib_id "263A Proj Extra Parts:MX-28AR_Motor")
+		(at 247.65 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a9a2620-45f8-46ea-ad55-da5d97db0769")
+		(property "Reference" "M2"
+			(at 245.745 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 247.65 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "8b5543ea-1b33-4eab-ba17-d179d1976f86")
+		)
+		(pin ""
+			(uuid "7c781118-5bbf-49ed-9b79-c4851983f78a")
+		)
+		(pin ""
+			(uuid "a00c0575-76ac-4312-9220-b32d98996a42")
+		)
+		(pin ""
+			(uuid "e84cc2d4-0b0c-4622-af4e-c5baa88d9967")
+		)
+		(instances
+			(project "MAE_263A_Proj"
+				(path "/fd7f6e10-2bfc-407f-92fe-3223aabb85bf"
+					(reference "M2")
 					(unit 1)
 				)
 			)
@@ -5186,93 +5572,6 @@
 			(project "MAE_263A_Proj"
 				(path "/fd7f6e10-2bfc-407f-92fe-3223aabb85bf"
 					(reference "HW-097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "MX-28AR_Motor_3")
-		(lib_id "263A Proj Extra Parts:MX-28AR_Motor")
-		(at 247.65 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5c83735-3eb4-419c-81c4-624a1b10497b")
-		(property "Reference" "M2"
-			(at 245.745 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 247.65 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "1da3526b-ea15-4aeb-9538-52bdf58fd769")
-		)
-		(pin ""
-			(uuid "b632268b-20de-4244-a3a2-558e548eb967")
-		)
-		(pin ""
-			(uuid "aec9a306-c98a-46b3-932d-47a29bc5a6d7")
-		)
-		(pin ""
-			(uuid "31d5e826-9adf-4f6c-809d-abae01b940c3")
-		)
-		(instances
-			(project "MAE_263A_Proj"
-				(path "/fd7f6e10-2bfc-407f-92fe-3223aabb85bf"
-					(reference "M2")
 					(unit 1)
 				)
 			)
